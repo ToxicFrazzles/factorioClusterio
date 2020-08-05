@@ -1188,11 +1188,11 @@ async function symlinkMods(instance, sharedMods, logger) {
 				}
 
 			} else {
-				logger.warning(`Warning: ignoring file '${entry.name}' in sharedMods`);
+				logger.log(`Warning: ignoring file '${entry.name}' in sharedMods`);
 			}
 
 		} else {
-			logger.warning(`Warning: ignoring non-file '${entry.name}' in sharedMods`);
+			logger.log(`Warning: ignoring non-file '${entry.name}' in sharedMods`);
 		}
 	}
 }
